@@ -4,9 +4,10 @@ import { EmpresasComponent } from './empresas.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { AnunciosComponent } from './components/anuncios/anuncios.component';
 import { EmpresasRoutingModule } from './empresas-routing.module';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 @NgModule({
-  declarations: [EmpresasComponent, ProfileComponent, AnunciosComponent],
+  declarations: [EmpresasComponent, ProfileComponent, AnunciosComponent, NavbarComponent],
   imports: [
     CommonModule,
     EmpresasRoutingModule
