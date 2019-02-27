@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     HomeComponent,
     LoginComponent,
     RegisterComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
