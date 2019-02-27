@@ -4,13 +4,13 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { AnunciosComponent } from './components/anuncios/anuncios.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { UsuariosComponent } from './usuarios.component';
-import { EmpresasRoutingModule } from '../empresas/empresas-routing.module';
+import { UsuariosRoutingModule } from './usuarios-routing.module';
 
 @NgModule({
   declarations: [ProfileComponent, AnunciosComponent, NavbarComponent, UsuariosComponent],
   imports: [
     CommonModule,
-    EmpresasRoutingModule
+    UsuariosRoutingModule
   ]
 })
 export class UsuariosModule { }
